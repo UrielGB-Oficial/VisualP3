@@ -32,5 +32,10 @@ namespace VisualP3
                 // textBox1.Text = contenido;
             }
         }
+
+        private void button1p_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

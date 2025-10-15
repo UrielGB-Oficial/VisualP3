@@ -44,13 +44,14 @@
             // 
             // button1p
             // 
-            button1p.Location = new Point(284, 153);
+            button1p.Location = new Point(259, 132);
             button1p.Margin = new Padding(3, 4, 3, 4);
             button1p.Name = "button1p";
             button1p.Size = new Size(267, 197);
             button1p.TabIndex = 1;
-            button1p.Text = "boton pg";
+            button1p.Text = "boton pgn";
             button1p.UseVisualStyleBackColor = true;
+            button1p.Click += button1p_Click;
             // 
             // Form1
             // 
