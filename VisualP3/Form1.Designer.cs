@@ -30,6 +30,7 @@
         {
             CargarASM = new Button();
             button1p = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // CargarASM
@@ -53,11 +54,21 @@
             button1p.UseVisualStyleBackColor = true;
             button1p.Click += button1p_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(581, 226);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 451);
+            Controls.Add(button1);
             Controls.Add(button1p);
             Controls.Add(CargarASM);
             Name = "Form1";
@@ -69,5 +80,6 @@
 
         private Button CargarASM;
         private Button button1p;
+        private Button button1;
     }
 }
