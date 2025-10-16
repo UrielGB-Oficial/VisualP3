@@ -5,6 +5,8 @@ namespace VisualP3
         public Form1()
         {
             InitializeComponent();
+            textBox1.ReadOnly = true;
+            textBox2.ReadOnly = true;
         }
 
         private void CargarASM_Click(object sender, EventArgs e)
@@ -34,6 +36,16 @@ namespace VisualP3
         }
 
         private void button1p_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
