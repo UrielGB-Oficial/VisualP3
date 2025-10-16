@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             CargarASM = new Button();
-            button1p = new Button();
-            button1 = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // CargarASM
@@ -43,43 +43,40 @@
             CargarASM.UseVisualStyleBackColor = true;
             CargarASM.Click += CargarASM_Click;
             // 
-            // button1p
+            // textBox1
             // 
-            button1p.Location = new Point(259, 132);
-            button1p.Margin = new Padding(3, 4, 3, 4);
-            button1p.Name = "button1p";
-            button1p.Size = new Size(267, 197);
-            button1p.TabIndex = 1;
-            button1p.Text = "boton pgn";
-            button1p.UseVisualStyleBackColor = true;
-            button1p.Click += button1p_Click;
+            textBox1.Location = new Point(396, 163);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(392, 249);
+            textBox1.TabIndex = 1;
             // 
-            // button1
+            // textBox2
             // 
-            button1.Location = new Point(581, 226);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            textBox2.Location = new Point(12, 163);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(378, 249);
+            textBox2.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 451);
-            Controls.Add(button1);
-            Controls.Add(button1p);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(CargarASM);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button CargarASM;
-        private Button button1p;
-        private Button button1;
+        private TextBox textBox1;
+        private TextBox textBox2;
     }
 }
